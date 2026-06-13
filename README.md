@@ -49,8 +49,13 @@ amzvisuals.ai ist ein **Hybrid-Produkt**:
    Status-Badge pro Bild). Backend = **Supabase**.
 7. **[Agentur-Partnerprogramm](docs/07-agentur-partnerprogramm.md)** — Lean
    Affiliate-Modell statt White-Label: Kunde direkt auf der Plattform, Agentur per
-   Affiliate-Link zugeordnet, 25% lifetime Provision, fertiges Affiliate-Tool auf
-   Stripe = minimal Dev.
+   Affiliate-Link zugeordnet, 25% lifetime Provision, **Tool = Tolt** auf Stripe.
+8. **[Agentur-Outbound (Close)](docs/08-agentur-outbound-close.md)** — Partner-
+   Gewinnung: ICP, wo finden, Close-Setup + fertige 5-Mail-Sequenz „25% lifetime,
+   ohne eigenen Designer".
+9. **[Partner-Welcome-Kit](docs/09-partner-welcome-kit.md)** — Onboarding für
+   Agenturen: Welcome-Mail, 1-Seiten-Guide, fertige Vorlagen für deren Kunden,
+   Pitch-Skript, FAQ.
 
 Dazu im Repo: **`AMZVisuals_Relaunch_Backlog.xlsx`** — die komplette Aufgabenliste
 (29 Tasks: Bug/Anpassung/Neu) inkl. Partnerprogramm, mit Priorität, Quelle und
