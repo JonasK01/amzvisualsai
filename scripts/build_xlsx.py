@@ -121,8 +121,8 @@ rows = [
      "Bessere Logos in 'See Our Work in Action'; Value-Props 'Instant Ordering / Amazon-specific AI' besser visualisieren.",
      "01:22–01:58"),
     # --- PARTNERPROGRAMM (Affiliate, lean) ---
-    ("P1", "Partnerprogramm", "Neu", "Hoch", "Affiliate-Tool an Stripe anbinden",
-     "Fertiges Affiliate-SaaS (Rewardful / Tolt / FirstPromoter) auf Stripe aufsetzen: Tracking-Links, Cookie-Attribution, Partner-Dashboards, recurring 25%-Provision & automatische Auszahlungen. Near-zero Eigenentwicklung.",
+    ("P1", "Partnerprogramm", "Neu", "Hoch", "Affiliate-Tool an Stripe anbinden (Tolt)",
+     "Empfehlung TOLT (statt Rewardful): auto Auszahlungen via Wise/Payoneer/PayPal, flat ab 49$/Mo, keine Payout-Gebühren, ~15 Min Setup. Liest echte Stripe-Charges -> lifetime 25% auf tatsächlich gezahlten Betrag automatisch. Liefert Tracking-Links, Cookie-Attribution, Partner-Dashboards, Auszahlungen.",
      "Entscheidung 13.06."),
     ("P2", "Partnerprogramm", "Neu", "Hoch", "Agentur-Attribution bei Registrierung",
      "?ref=CODE aus Affiliate-Link in Cookie speichern und User zuordnen; zusätzlich optionales Feld bei Signup 'Von einer Agentur empfohlen? (Name/Code)'. Beides schreibt referred_by_agency.",

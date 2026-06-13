@@ -42,10 +42,21 @@ Zwei Wege, beide schreiben `referred_by_agency`:
 ## Technik (bewusst minimal)
 
 **Der Low-Dev-Trick:** Da Stripe bereits genutzt wird, ein **fertiges Affiliate-Tool**
-auf Stripe aufsetzen statt selbst zu bauen:
-- Kandidaten: **Rewardful · Tolt · FirstPromoter** (alle Stripe-nativ).
-- Liefern out-of-the-box: Tracking-Links, Cookie-Attribution, **Partner-Dashboards**,
-  Provisions-Berechnung (recurring), **automatische Auszahlungen**, Terms.
+auf Stripe aufsetzen statt selbst zu bauen.
+
+**Empfehlung: Tolt** (statt Rewardful — Rewardful war lange nur CSV-Export + PayPal,
+genau der frühere Schmerzpunkt). Begründung:
+- **Automatische Auszahlungen via Wise, Payoneer, PayPal** → ideal für EU-/internationale
+  Agenturen (Wise), nicht nur PayPal.
+- **Flat-Preis ab 49 $/Mo, keine Payout-Gebühren**, ~15-Min-Setup über Stripe.
+- Liest die **echten Stripe-Charges** → „tatsächlich gezahlter Betrag" (nach Rabattcode)
+  und **lifetime/recurring** Provision automatisch; Refunds/Cancellations werden gehandhabt.
+
+Alternativen: Rewardful (jetzt mit „Managed Payouts", aber Gebühren), FirstPromoter
+(PayPal-Auszahlung 1-Klick, Wise/Bank eher manuell).
+
+Beide Vorgaben sind damit nativ erfüllt: **lifetime 25%** + **auf tatsächlich gezahlten Betrag**.
+
 - **Eigenentwicklung minimal:** nur das optionale „Agentur-Feld bei Signup" + das
   `ref`-Cookie-Capturing (oft schon vom Tool abgedeckt).
 
