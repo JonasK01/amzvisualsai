@@ -33,13 +33,13 @@ text(80*S, 196*S, "Wiederkehrende Abos  ·  monatlich kündbar  ·  über Stripe
 
 # Cards
 cards = [
-    {"name":"Ad Starter", "tag":"TARIF", "price":"$197", "popular":False,
+    {"name":"Ad Starter", "tag":"TARIF", "price":"$200", "popular":False,
      "items":[("2 Brand Ad Creatives / Monat",True),("1 Ad Video / Monat",True),
               ("Amazon-optimiert",True),("White-Label Dateien",False)]},
-    {"name":"Ad Premium Package", "tag":"EMPFOHLEN", "price":"$497", "popular":True,
+    {"name":"Ad Premium Package", "tag":"EMPFOHLEN", "price":"$400", "popular":True,
      "items":[("5 Brand Ad Creatives / Monat",True),("3 Ad Videos / Monat",True),
               ("Amazon-optimiert",True),("Monatlich kündbar",True)]},
-    {"name":"Ad Agency", "tag":"TARIF", "price":"$997", "popular":False,
+    {"name":"Ad Agency", "tag":"TARIF", "price":"$750", "popular":False,
      "items":[("12 Brand Ad Creatives / Monat",True),("8 Ad Videos / Monat",True),
               ("Priority-Lieferung",True),("White-Label Dateien",True)]},
 ]

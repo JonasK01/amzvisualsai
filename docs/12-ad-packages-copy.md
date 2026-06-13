@@ -1,7 +1,7 @@
 # 12 · Ad Packages — Copy (DE / EN)
 
 > Fertige Texte für die Pricing-Sektion der Monatsabos, in Deutsch und Englisch.
-> Preise: Ad Starter $197 · Ad Premium $497 · Ad Agency $997 (USD/Monat).
+> Preise: Ad Starter $200 · Ad Premium $400 · Ad Agency $750 (USD/Monat).
 > Platzhalter in `{{...}}`.
 
 ---
@@ -13,7 +13,7 @@
 **Subheadline:** Frische Amazon-Werbe-Creatives & Ad-Videos – jeden Monat, ohne eigenen Designer.
 **Hinweis:** Monatlich abgerechnet · jederzeit zum Monatsende kündbar · jährlich zahlen = 2 Monate gratis.
 
-### Tarif 1 — Ad Starter · $197/Monat
+### Tarif 1 — Ad Starter · $200/Monat
 - **Tagline:** Für den Einstieg
 - **Beschreibung:** Perfekt, um konstant frische Werbemittel zu testen.
 - **Enthalten:**
@@ -23,7 +23,7 @@
 - **Für wen:** Einzelne Seller
 - **CTA:** Abo starten
 
-### Tarif 2 — Ad Premium · $497/Monat · ⭐ POPULAR
+### Tarif 2 — Ad Premium · $400/Monat · ⭐ POPULAR
 - **Tagline:** Der Bestseller
 - **Beschreibung:** Genug Output, um deine wichtigsten Produkte konstant frisch und konversionsstark zu halten.
 - **Enthalten:**
@@ -34,7 +34,7 @@
 - **Für wen:** Wachsende Marken
 - **CTA:** Abo starten
 
-### Tarif 3 — Ad Agency · $997/Monat
+### Tarif 3 — Ad Agency · $750/Monat
 - **Tagline:** Für Agenturen & Multi-Brand
 - **Beschreibung:** Hohes Volumen für mehrere Marken oder Kunden – inklusive White-Label-Dateien.
 - **Enthalten:**
@@ -62,7 +62,7 @@
 **Subheadline:** Fresh Amazon ad creatives & videos — every month, no designer needed.
 **Note:** Billed monthly · cancel anytime, effective end of period · pay yearly = 2 months free.
 
-### Tier 1 — Ad Starter · $197/mo
+### Tier 1 — Ad Starter · $200/mo
 - **Tagline:** Get started
 - **Description:** Perfect for consistently testing fresh ad creative.
 - **What's included:**
@@ -72,7 +72,7 @@
 - **Best for:** Solo sellers
 - **CTA:** Subscribe
 
-### Tier 2 — Ad Premium · $497/mo · ⭐ POPULAR
+### Tier 2 — Ad Premium · $400/mo · ⭐ POPULAR
 - **Tagline:** Most popular
 - **Description:** Enough output to keep your key products consistently fresh and converting.
 - **What's included:**
@@ -83,7 +83,7 @@
 - **Best for:** Growing brands
 - **CTA:** Subscribe
 
-### Tier 3 — Ad Agency · $997/mo
+### Tier 3 — Ad Agency · $750/mo
 - **Tagline:** For agencies & multi-brand
 - **Description:** High volume across multiple brands or clients — including white-label files.
 - **What's included:**
