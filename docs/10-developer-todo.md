@@ -91,6 +91,14 @@ Das AI-Modul startet gar nicht.
 - [ ] Stufe 2 (später): generatives AI-Video hinter `VideoProvider`.
 > Spec: [02-produkt-spec.md §3](02-produkt-spec.md)
 
+### Subscriptions — Ad Packages (monatlich, Stripe) · HIGH
+- [ ] **S1** Stripe-Subscription + **Customer Portal** (Self-Service-Kündigung zum Periodenende).
+- [ ] **S2** Generisches Plan-/Kontingent-Datenmodell (Tarife datengetrieben, `quotas` JSON, `org_id`).
+- [ ] **S3** Subscription-Webhooks (`invoice.paid` = monatlicher Kontingent-Reset etc.).
+- [ ] **S4** Kontingent-Enforcement (use-it-or-lose-it, bei Limit sperren bis nächster Zyklus).
+- [ ] **S5** Plans-UI + Verbrauchsanzeige („Creatives 3/5 · Videos 2/3", Verwalten/Kündigen).
+> Entscheidungen final (use-it-or-lose-it · sperren · Kündigung zum Periodenende · mehrere Tarife). Spec: [11-subscriptions-ad-packages.md](11-subscriptions-ad-packages.md)
+
 ### Partnerprogramm (minimaler Dev — Tool macht den Rest)
 - [ ] **Tolt** an Stripe anbinden (Tracking-Links, Cookie-Attribution, Partner-Dashboards, 25% lifetime, Auszahlungen Wise/Payoneer/PayPal).
 - [ ] **`?ref=CODE`** aus Affiliate-Link in Cookie speichern und bei Signup dem User zuordnen (`referred_by_agency`).

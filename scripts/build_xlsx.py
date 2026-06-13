@@ -139,6 +139,25 @@ rows = [
     ("P6", "Partnerprogramm", "Neu", "Mittel", "Agentur-managed Modus (optional)",
      "Für Agenturen, die selbst im eigenen Account für Kunden bestellen: 25% als Dauerrabatt statt Provision; Kunden als Brands. Nutzt bestehende Strukturen.",
      "Entscheidung 13.06."),
+    # --- SUBSCRIPTIONS (Ad-Pakete, monatlich) ---
+    ("S1", "Subscriptions", "Neu", "Hoch", "Stripe-Abo + Customer Portal",
+     "Monatliche Abos parallel zu Einmal-Services (z.B. Ad Premium Package = 5 Brand Ad Creatives + 3 Ad Videos/Monat). Stripe Product + recurring Price, Checkout im Subscription-Mode. Customer Portal aktivieren für Self-Service-Kündigung (zum Periodenende), Kartenwechsel, Rechnungen.",
+     "Entscheidung 13.06."),
+    ("S2", "Subscriptions", "Neu", "Hoch", "Generisches Plan-/Kontingent-Modell",
+     "Datengetriebene Tarife mit Monats-Kontingenten (quotas JSON, z.B. {ad_creative:5, ad_video:3}); subscriptions + quota_usage je Periode, an org_id gebunden. Generisch bauen (mehrere Tarife geplant), nicht hartcodiert.",
+     "Entscheidung 13.06."),
+    ("S3", "Subscriptions", "Neu", "Hoch", "Subscription-Webhooks",
+     "checkout.session.completed/subscription.created (anlegen), invoice.paid (KONTINGENT-RESET = neue Periode), subscription.updated (Status/cancel_at_period_end/Tarifwechsel), subscription.deleted, invoice.payment_failed (past_due + sperren). Signaturen prüfen, idempotent.",
+     "Entscheidung 13.06."),
+    ("S4", "Subscriptions", "Neu", "Hoch", "Kontingent-Enforcement (use-it-or-lose-it)",
+     "Bei jeder Ad-Creative/Ad-Video-Generierung: used_count < limit -> erlauben + atomar hochzählen, sonst SPERREN mit Reset-Datum. Kein Rollover, kein Overage (sperren bis nächster Zyklus).",
+     "Entscheidung 13.06."),
+    ("S5", "Subscriptions", "Neu", "Mittel", "Plans-UI + Verbrauchsanzeige",
+     "Bereich Plans/Subscription (Tarif-Karten), Subscribe-CTA. Aktives Abo mit Rest diesen Monat (z.B. 'Creatives 3/5, Videos 2/3'), Erneuerungsdatum, Verwalten/Kündigen -> Customer Portal. Bei aufgebraucht generieren sperren + Reset-Datum; past_due-Banner.",
+     "Entscheidung 13.06."),
+    ("S6", "Subscriptions", "Neu", "Niedrig", "Up-/Downgrade-Handling",
+     "Tarifwechsel mid-cycle: Stripe regelt Abrechnung (Proration); Kontingent-Änderung ab nächster Periode (v1). Später verfeinern.",
+     "Entscheidung 13.06."),
 ]
 
 # Title row

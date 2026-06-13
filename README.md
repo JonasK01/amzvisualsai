@@ -60,6 +60,10 @@ priorisierte To-do-Liste (Blocker → Bugs → UI → Module). Das ist der Einst
 9. **[Partner-Welcome-Kit](docs/09-partner-welcome-kit.md)** — Onboarding für
    Agenturen: Welcome-Mail, 1-Seiten-Guide, fertige Vorlagen für deren Kunden,
    Pitch-Skript, FAQ.
+10. **[Subscriptions — Ad Packages](docs/11-subscriptions-ad-packages.md)** —
+    Developer-Brief für monatliche Abos (Stripe): generische Tarife mit
+    Monatskontingent (z. B. 5 Creatives + 3 Videos), use-it-or-lose-it,
+    Kündigung zum Periodenende via Stripe Customer Portal.
 
 Dazu im Repo: **`AMZVisuals_Relaunch_Backlog.xlsx`** — die komplette Aufgabenliste
 (29 Tasks: Bug/Anpassung/Neu) inkl. Partnerprogramm, mit Priorität, Quelle und
