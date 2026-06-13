@@ -33,13 +33,13 @@ text(80*S, 196*S, "Wiederkehrende Abos  ·  monatlich kündbar  ·  über Stripe
 
 # Cards
 cards = [
-    {"name":"Ad Starter", "tag":"Beispiel-Tarif", "price":"$ XX", "popular":False,
+    {"name":"Ad Starter", "tag":"TARIF", "price":"$197", "popular":False,
      "items":[("2 Brand Ad Creatives / Monat",True),("1 Ad Video / Monat",True),
               ("Amazon-optimiert",True),("White-Label Dateien",False)]},
-    {"name":"Ad Premium Package", "tag":"BESTÄTIGT", "price":"$ XX", "popular":True,
+    {"name":"Ad Premium Package", "tag":"EMPFOHLEN", "price":"$497", "popular":True,
      "items":[("5 Brand Ad Creatives / Monat",True),("3 Ad Videos / Monat",True),
               ("Amazon-optimiert",True),("Monatlich kündbar",True)]},
-    {"name":"Ad Agency", "tag":"Beispiel-Tarif", "price":"$ XX", "popular":False,
+    {"name":"Ad Agency", "tag":"TARIF", "price":"$997", "popular":False,
      "items":[("12 Brand Ad Creatives / Monat",True),("8 Ad Videos / Monat",True),
               ("Priority-Lieferung",True),("White-Label Dateien",True)]},
 ]
@@ -65,7 +65,7 @@ for i, c in enumerate(cards):
     pad = 36*S
     cy = y + 44*S
     # tag
-    tagcol = GREEN if c["tag"]=="BESTÄTIGT" else GRAY
+    tagcol = GREEN if c["tag"]=="EMPFOHLEN" else GRAY
     text(x+pad, cy, c["tag"], f(20, True), tagcol); cy += 36*S
     # name
     text(x+pad, cy, c["name"], f(36, True), DARK); cy += 64*S
@@ -91,7 +91,7 @@ for i, c in enumerate(cards):
 
 # Footer note
 fy = y0 + ch + 50*S
-text(W//2, fy, "Platzhalter-Preise & Beispiel-Tarife — gib mir deine Zahlen, dann wird's final.",
+text(W//2, fy, "Empfohlene Preise (USD)  ·  25% Partner-Provision bereits eingeplant  ·  jährlich = 2 Monate gratis",
      f(26, True), DARK, center=True)
 text(W//2, fy+40*S, "Use-it-or-lose-it · bei Limit gesperrt bis nächster Monat · Kündigung zum Periodenende (Stripe Customer Portal)",
      f(23), GRAY, center=True)
