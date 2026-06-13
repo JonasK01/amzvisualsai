@@ -31,6 +31,10 @@ amzvisuals.ai ist ein **Hybrid-Produkt**:
 | 2. Ad-Video-Modul | Existiert **nicht** | [Produkt-Spec §3](docs/02-produkt-spec.md#3-modul-ad-video) |
 | 3. Agentur-/White-Label-Lösung | Existiert **nicht** | [Produkt-Spec §4](docs/02-produkt-spec.md#4-modul-white-label--agenturen) |
 
+## 👉 Für den Developer
+**[docs/10-developer-todo.md](docs/10-developer-todo.md)** — die zentrale,
+priorisierte To-do-Liste (Blocker → Bugs → UI → Module). Das ist der Einstieg.
+
 ## Dokumente
 
 1. **[Bestandsaufnahme](docs/01-bestandsaufnahme.md)** — Was wirklich gebaut ist
