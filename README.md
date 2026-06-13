@@ -64,6 +64,11 @@ priorisierte To-do-Liste (Blocker → Bugs → UI → Module). Das ist der Einst
     Developer-Brief für monatliche Abos (Stripe): generische Tarife mit
     Monatskontingent (z. B. 5 Creatives + 3 Videos), use-it-or-lose-it,
     Kündigung zum Periodenende via Stripe Customer Portal.
+11. **[Ad Packages — Copy (DE/EN)](docs/12-ad-packages-copy.md)** — fertige
+    Pricing-Copy in Deutsch & Englisch ($200/$400/$750).
+12. **[3-Monats-Revenue-Plan](docs/13-3-monats-revenue-plan.md)** — Weg zu
+    15k MRR + 30k Projects in 90 Tagen, low-spend (Cold Email 15k, Agenturen,
+    Content, Free-Teardown-Hook). Visual: `docs/assets/3-month-revenue-roadmap.png`.
 
 Dazu im Repo: **`AMZVisuals_Relaunch_Backlog.xlsx`** — die komplette Aufgabenliste
 (29 Tasks: Bug/Anpassung/Neu) inkl. Partnerprogramm, mit Priorität, Quelle und
