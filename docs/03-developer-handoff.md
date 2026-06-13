@@ -116,6 +116,14 @@ White-Label-Architektur (org_id) aber bereits in Epic 0 mitziehen.
 Konkrete Tages-/Wochenschätzungen erst nach Stack-Festlegung mit dem Developer —
 diese hängen stark von der gewählten Plattform und seiner Erfahrung ab.
 
+## 5b. Live-Stack (aus Loom-Frames beobachtet)
+
+Das **live deployte** Tool nutzt bereits **Supabase** als Backend (`*.supabase.co`-
+URLs in den Frames sichtbar) und hat eine eigene **`/designer`-Route**. Die
+Blocker B1/B2 (Signup, Payment) hingen auf Supabase-Requests → dort zuerst
+Auth/RLS/Webhooks/Keys prüfen. Der oben empfohlene Stack ist damit weitgehend
+kompatibel (Supabase = Postgres + Auth + Storage). Details: [06-ui-review.md](06-ui-review.md).
+
 ## 6. Offene Punkte (vom Developer/Jonas zu klären)
 - Wo liegt ggf. ein bereits begonnener AI-Teil? (StackBlitz-Account des Developers prüfen)
 - Welche AI-Provider sind budgetseitig ok? (Kosten pro Generierung/Render)

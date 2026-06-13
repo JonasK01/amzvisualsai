@@ -44,6 +44,9 @@ amzvisuals.ai ist ein **Hybrid-Produkt**:
 5. **[Walkthrough-Findings](docs/05-walkthrough-findings.md)** — Developer-fertige
    Bug-/UX-/Feature-Liste aus Jonas' Loom-Walkthrough (13.06.) mit Timestamps:
    3 Blocker (Signup, Zahlung, AI), High-/Medium-Bugs, AI-Prompt-Anforderungen.
+6. **[Visual UI Review](docs/06-ui-review.md)** — rein visuelle Funde aus den
+   Video-Frames (Tippfehler „No Gas", Kontrast-Probleme, Chat-Widget überlappt CTAs,
+   Status-Badge pro Bild). Backend = **Supabase**.
 
 ## Tech (Prototyp heute)
 
