@@ -4,6 +4,16 @@ Stand: Juni 2026. Basis: Code-Audit des einzigen auffindbaren Codes,
 `JonasK01/sb1-oc1x2hve` (StackBlitz/Bolt-Export). Das verbundene Repo
 `JonasK01/amzvisualsai` ist leer.
 
+> **⚠️ KORREKTUR (nach Loom-Walkthrough 2026-06-13):** Der hier auditierte Code
+> `sb1-oc1x2hve` ist ein **frühes UI-Mockup**, **nicht** das live deployte Produkt.
+> Das echte, live deployte Tool ist deutlich weiter: Signup/Login,
+> Brand-/Produkt-Anlage, Visual-Order-Flow, **Bezahlung mit Rabattcodes**,
+> **Designer-Dashboard mit Versionierung**, **Visual Library** und ein
+> **AI-Image-Generierungs-Modul** existieren bereits (Letzteres aktuell *kaputt*,
+> nicht *fehlend*). Die folgende „Was fehlt"-Analyse gilt also für den Prototyp,
+> **nicht** für das Live-Produkt. Siehe [05-walkthrough-findings.md](05-walkthrough-findings.md).
+> Nächster Schritt: Zugriff auf das **Live-Repo** sicherstellen.
+
 ## TL;DR
 
 Was existiert, ist ein **wunderschön gestaltetes, aber reines Frontend-Mockup**

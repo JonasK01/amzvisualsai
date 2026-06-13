@@ -5,9 +5,12 @@ SaaS-Tool für hochkonvertierende Amazon-Visuals (Listing Images, A+ Content,
 Brand Store, Brand Story) mit AI-Unterstützung.
 
 > **Wichtig:** Dieses Repo enthält aktuell **die Spezifikation und Übergabe-Doku**,
-> nicht den Anwendungscode. Der lauffähige Frontend-Prototyp liegt im
-> StackBlitz/Bolt-Export `JonasK01/sb1-oc1x2hve` (reines UI-Mockup, kein Backend).
-> Details siehe [docs/01-bestandsaufnahme.md](docs/01-bestandsaufnahme.md).
+> nicht den Anwendungscode. `JonasK01/sb1-oc1x2hve` ist nur ein **frühes UI-Mockup**.
+> Das **live deployte Tool ist deutlich weiter** (Signup, Zahlung, Designer-Dashboard
+> mit Versionierung, Visual Library, AI-Modul) — der Walkthrough vom 13.06. zeigt das.
+> Nächster Schritt: Zugriff aufs **Live-Repo** sicherstellen.
+> Details: [docs/01-bestandsaufnahme.md](docs/01-bestandsaufnahme.md) ·
+> [docs/05-walkthrough-findings.md](docs/05-walkthrough-findings.md).
 
 ## Vision
 
@@ -38,6 +41,9 @@ amzvisuals.ai ist ein **Hybrid-Produkt**:
    Ticket-Backlog mit Reihenfolge & Aufwandsschätzung.
 4. **[Go-to-Market](docs/04-go-to-market.md)** — Intern zuerst Umsatz, dann extern,
    ohne viel Ads. Agentur-White-Label-Kanal. Outbound über Close CRM.
+5. **[Walkthrough-Findings](docs/05-walkthrough-findings.md)** — Developer-fertige
+   Bug-/UX-/Feature-Liste aus Jonas' Loom-Walkthrough (13.06.) mit Timestamps:
+   3 Blocker (Signup, Zahlung, AI), High-/Medium-Bugs, AI-Prompt-Anforderungen.
 
 ## Tech (Prototyp heute)
 
