@@ -47,6 +47,14 @@ amzvisuals.ai ist ein **Hybrid-Produkt**:
 6. **[Visual UI Review](docs/06-ui-review.md)** — rein visuelle Funde aus den
    Video-Frames (Tippfehler „No Gas", Kontrast-Probleme, Chat-Widget überlappt CTAs,
    Status-Badge pro Bild). Backend = **Supabase**.
+7. **[Agentur-Partnerprogramm](docs/07-agentur-partnerprogramm.md)** — Lean
+   Affiliate-Modell statt White-Label: Kunde direkt auf der Plattform, Agentur per
+   Affiliate-Link zugeordnet, 25% lifetime Provision, fertiges Affiliate-Tool auf
+   Stripe = minimal Dev.
+
+Dazu im Repo: **`AMZVisuals_Relaunch_Backlog.xlsx`** — die komplette Aufgabenliste
+(29 Tasks: Bug/Anpassung/Neu) inkl. Partnerprogramm, mit Priorität, Quelle und
+leeren Spalten für Aufwand/Verantwortlich/Status.
 
 ## Tech (Prototyp heute)
 
